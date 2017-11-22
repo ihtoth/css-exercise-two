@@ -1,13 +1,51 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFF;
+  color: #000;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+}
+h1{
+  font-size: 1.8em;
+  line-height: 1.9em;
+}
+h2{
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+h3{
+  font-size: 1.3em;
+  line-height: 1.3em;
+  padding-bottom: 1rem;
+}
+p{
+  padding: 0.5em 0 0.5em;
+  font-size: 1em;
+}
+a{
+  text-decoration: none;
+  color: rgb(238, 136, 31);
+}
+a:hover{
+  color: rgb(232, 193, 128);
 }
 
+figcaption{
+  font-size: 0.72em;
+  text-align: left;
+  line-height: 1.4em;
+  padding: 0.4em 0.1em 0;
+  width: 70%;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
+  font-size: 2em;
+}
+.author{
+font-size: 0.9em;
 }
 
 .logo {
@@ -44,6 +82,10 @@ li {
 
 article {
   padding-top: 100px;
+
+}
+figure{
+  padding-bottom: 1em;
 }
 
 .container {
